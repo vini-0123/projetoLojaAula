@@ -1,0 +1,146 @@
+import { StyleSheet } from 'react-native';
+
+const estilo = StyleSheet.create({
+  fundo: {
+    backgroundColor: '#1C1C1C',
+    flex: 1,
+  },
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    padding: 8,
+  },
+  paragraph: {
+    marginBottom: 5,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#BA55D3',
+    marginTop: 255,
+  },
+  titulo: {
+    marginTop: 10,
+    marginBottom: 15,
+    fontSize: 23,
+    fontWeight: '900',
+    textAlign: 'center',
+    color: '#fbfbfb',
+  },
+  input: {
+    fontSize: 18,
+    marginVertical: 5,
+    marginHorizontal: 10,
+    paddingVertical: 7.5,
+    paddingHorizontal: 10,
+    width: '95%',
+    borderRadius: 5,
+    backgroundColor: '#FFE6FF',
+    borderWidth: 1,
+    borderColor: '#aaa',
+    outlineColor: '#FFE6FF',
+    textAlign: 'center',
+    alignSelf: 'center',
+  },
+  btn2: {
+    width: 100,
+    height: 39,
+    marginVertical: 10,
+    marginHorizontal: 127,
+    borderRadius: 30,
+    backgroundColor: '#4285F4',
+  },
+  textoBtn2: {
+    fontWeight: 'bold',
+    paddingVertical: 12,
+    paddingHorizontal: 25,
+    color: '#fff',
+  },
+  input2: {
+    fontSize: 18,
+    marginVertical: 5,
+    marginHorizontal: 10,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    borderRadius: 7,
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#aaa',
+    outlineColor: '#fff',
+    width: 270,
+  },
+  view2: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  view: {
+    position: 'fixed',
+    marginVertical: 645,
+  },
+  btn: {
+    position: 'absolute',
+    width: 180,
+    alignSelf: 'center',
+    height: 38,
+    marginVertical: 665,
+    borderRadius: 4,
+    backgroundColor: '#4285F4',
+  },
+  btn3: {
+    width: 180,
+    alignSelf: 'center',
+    height: 38,
+    borderRadius: 4,
+    backgroundColor: '#4285F4',
+    marginTop: 28,
+  },
+  textoBtn: {
+    fontWeight: 'bold',
+    paddingVertical: 10,
+    color: '#fff',
+    alignSelf: 'center',
+  },
+  gradiente:{
+    borderRadius: 4,
+    width: '100%',
+    height: '100%',
+  },
+  textoLink: {
+    position: 'absolute',
+    alignSelf: 'center',
+    color: '#A9A9A9',
+  },
+  textoGeral:{
+    color: '#A9A9A9',
+    fontWeight: '500',
+  },
+  vinheta: {
+    flex: 1
+  },
+  header: {
+    position: 'absolute',
+  },
+    btn4: {
+    width: 180,
+    alignSelf: 'center',
+    height: 30,
+    borderRadius: 4,
+    backgroundColor: '#4285F4',
+    marginTop: 10,
+    textAlign: 'center',
+    marginBottom: 5,
+  },
+    textoBtn3: {
+    fontWeight: 'bold',
+    paddingVertical: 6,
+    color: '#fff',
+    alignSelf: 'center',
+  },
+  imgFundo:{
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+    zIndex: 10,
+  },
+});
+
+export default estilo;
